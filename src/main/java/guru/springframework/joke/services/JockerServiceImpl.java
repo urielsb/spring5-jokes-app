@@ -9,9 +9,9 @@ public class JockerServiceImpl implements JockerServices {
 
 	private final ChuckNorrisQuotes chuckNorrisQuotes;
 	
-	public JockerServiceImpl(ChuckNorrisQuotes chuckNorrisQuotes) {
+	public JockerServiceImpl() {
 		super();
-		this.chuckNorrisQuotes = chuckNorrisQuotes;
+		this.chuckNorrisQuotes = new ChuckNorrisQuotes();
 	}
 
 	@Override
